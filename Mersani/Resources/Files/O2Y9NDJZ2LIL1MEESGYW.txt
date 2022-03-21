@@ -1,0 +1,37 @@
+<!-- <div class="row">
+                                <div class="col-4">{{pageNo+'.SUB_TOTAL' | translate}}</div>
+                                <div class="col"><input type="text" readonly
+                                        [value]="calculateSubTotal | number:'1.2-2'" numbersOnly
+                                        class="form-control form-control-sm" /></div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4">{{pageNo+'.DISCOUNT' | translate}} (%)</div>
+                                <div class="col-3"><input type="text" numbersOnly class="form-control form-control-sm"
+                                        #discx [(ngModel)]="editCashierMaster.pch_discount_prc"
+                                        (change)="discountChange(discx.value, 'P')" />
+                                </div>
+                                <div class="col"><input type="text" #dixV numbersOnly
+                                        class="form-control form-control-sm"
+                                        [(ngModel)]="editCashierMaster.pch_discount_amount"
+                                        (change)="discountChange(dixV.value, 'V')" />
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4">{{pageNo+'.NET_TOTAL' | translate}}</div>
+                                <div class="col"><input type="text" numbersOnly readonly
+                                        class="form-control form-control-sm"
+                                        [value]="calculateNetTotal | number:'1.2-2'" />
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <div class="col-4">{{pageNo+'.VAT' | translate}}</div>
+                                <div class="col">
+                                    <input type="text" numbersOnly class="form-control form-control-sm"
+                                        [value]="calculateVatTotal | number: '1.2-2'" readonly />
+                                </div>
+                            </div>
+                            <div class="row mt-2" *ngIf="editCashierMaster.pch_cust_type == 3">
+                                <div class="col-4">{{pageNo+'.INSUR_PAYMENT' | translate}}</div>
+                                <div class="col"><input type="text" numbersOnly class="form-control form-control-sm"
+                                        [(ngModel)]="editCashierMaster.pch_isurance_payment" /></div>
+                            </div> -->
